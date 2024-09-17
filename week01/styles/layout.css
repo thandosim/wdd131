@@ -17,7 +17,7 @@ header {
 
 nav {
 	margin: 0 auto 2rem;
-	max-width: auto;
+	width: auto;
     display: flex;
     align-items: center;
     background: red;

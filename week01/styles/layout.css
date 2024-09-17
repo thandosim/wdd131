@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+    background: lightpink;
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
+
+nav {
+	margin: 0 auto 2rem;
+	max-width: auto;
+    display: flex;
+    align-items: center;
+    background: red;
+}
+
+.navigation a {
+	flex: 1 1 100%;
+    text-align: center;
+    background: white;
+}
+
+main {
+    background: coral;
+    grid-column: 1 / 3;
+    padding: 1rem;
+}
+aside {
+    background: blue;
+    grid-column: 3/4;
+    padding: 1rem;
+}
+
+footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+}

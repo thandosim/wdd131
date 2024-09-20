@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+    background: lightpink;
+    padding: 2rem;
+    grid-column: 1 / 4;
+    padding-bottom:0;
+    height: max-content;
+}
+
+nav {
+	margin: 0 auto 2rem;
+    margin: 0;
+	width: auto;
+    height: max-content;
+    display: flex;
+    align-items:center;
+    background: red;
+}
+
+.navigation a {
+	flex: 1 1 100%;
+    text-align: center;
+    background: rgb(223, 116, 116);
+}
+
+main {
+    grid-column: 1/4;
+    display: flex;
+    text-align: center;
+}
+
+#me {
+    width: 60%;
+}
+
+#resources {
+    width: 40%;
+}
+
+footer{
+    background: pink;
+    grid-column: 1/4;
+    padding: 2%;
+    text-align: center;
+
+}

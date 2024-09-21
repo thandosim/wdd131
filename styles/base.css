@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
-	margin: 0;
-	padding: 0;
-}
+        margin: 0;
+        padding: 0;
+    }
+    
 
 body {
     display: grid;
     height: 100vh;
     grid-template: auto 1fr auto / auto 1fr auto;
+    font-family: "Poppins";
+    background-color:rgb(184, 237, 237)
 }
 
 header {
-    background: lightpink;
+    background: rgb(146, 201, 216); 
     padding: 2rem;
     grid-column: 1 / 4;
     padding-bottom:0;
     height: max-content;
+    text-align: center;
+    
 }
 
 nav {
@@ -24,13 +31,18 @@ nav {
     height: max-content;
     display: flex;
     align-items:center;
-    background: red;
+    background: rgb(143, 174, 205);
 }
 
 .navigation a {
 	flex: 1 1 100%;
     text-align: center;
-    background: rgb(223, 116, 116);
+    /* background: rgb(223, 116, 116); */
+}
+a:hover {
+    color: rgb(180, 208, 227);
+    text-decoration: underline;
+    background-color: rgb(56, 95, 204);
 }
 
 main {
@@ -57,10 +69,12 @@ img {
 
 #resources {
     width: 40%;
+    text-align: left;
+    padding-left: 10%;
 }
 
 footer{
-    background: pink;
+    background: rgb(146, 201, 216);
     grid-column: 1/4;
     padding: 2%;
     text-align: center;

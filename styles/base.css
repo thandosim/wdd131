@@ -31,18 +31,18 @@ nav {
     height: max-content;
     display: flex;
     align-items:center;
-    background: rgb(202, 221, 240);
+    background: #ACC8E5;
 }
 
 .navigation a {
 	flex: 1 1 100%;
     text-align: center;
-    color: #000;
+    color: #112A46;
 }
 a:hover {
     color: rgb(180, 208, 227);
     text-decoration: underline;
-    background-color: rgb(56, 95, 204);
+    background-color: #112A46;
 }
 
 main {

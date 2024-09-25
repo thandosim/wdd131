@@ -6,8 +6,6 @@ const deleteButton = document.createElement('button');
 
 button.addEventListener("click", function() {
     if (input.value.trim() !== '') {
-        const deleteButton = document.createElement('button');
-        const li = document.createElement('li');
         li.textContent = input.value;
         deleteButton.textContent = '❌';
         li.append(deleteButton);

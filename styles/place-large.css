@@ -15,7 +15,14 @@
 
     section {
         position:absolute;
-        background-color: antiquewhite;
+    }
+
+    h2 {
+        background-color: aqua;
+        margin-left: -8px;
+        height: 3rem;
+        padding-left: 8px;
+        text-align: left;
     }
 
     #left {

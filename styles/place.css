@@ -6,6 +6,8 @@
     margin: 0 auto;
     max-width: 1500px;
     border: 0px;
+    --main-color:rgba(245, 15, 15, 0.226);
+    --pane-padding: 5px;
 }
 
 header, footer {

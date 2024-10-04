@@ -46,4 +46,7 @@ li{
     vertical-align:middle;
 }
 
+#wind::after {
+    content:"~";
+}
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Dynamic Web Fundamentals - Thandokuhle Simelane</title>
+        <meta name="description" content="This page displays ....">
+        <meta name="author" content="Thandokuhle Simelane">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+        <script src="scripts/place.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Swaziland</h1>
+        </header>
+
+        <main>
+            <div class="hero">
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="images/swaziscape-large.webp" width="1000">
+                    <img src="images/swaziscape-small.webp" alt="Swazi Nature photo" width="346" height="600">
+                </picture>
+            </div>
+
+            <section id="left">
+                <h2>Data</h2>
+                <ul>
+                    <li>Area<span class="align-colon">:</span>17,400km<sup>2</sup></li>
+                    <li>Population: 1,244,748</li>
+                    <li>Capital: Mbabane</li>
+                    <li>Languages: SiSwati, English</li>
+                    <li>Currency: Swazi Lilangeni</li>
+                    <li>Time Zone: Harare +2</li>
+                    <li>Calling Code: +268</li>
+                    <li>Internet TLD: .co.sz</li>
+                </ul>
+            </section>
+
+            <section id="right">
+                <h2>Weather</h2>
+                <img src="images/weather.svg" alt="weather icon" id="icon">
+                <ul>
+                    <li>Temperature <span class="align-colon"> : </span>9&deg;</li>
+                    <li>Conditions: partly cloudy, lightning</li>
+                    <li id="wind">Wind: 10km/h</li>
+                    <li>Wind Chill: <span id="windChill"></span>&deg;</li>
+                </ul>            
+            </section>
+        </main>
+
+        <footer>
+            <p> &copy; <span id="currentyear"></span>, 👤Thandokuhle Simelane, 🌍Mbabane, Swaziland</p>
+            <p>Last modified - <span id="lastModified"></span></p>
+        </footer>
+    </body>
+</html>

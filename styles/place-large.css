@@ -1,0 +1,36 @@
+@media screen and (min-width: 1000px) {
+    header, footer {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    main{
+        position: relative;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: auto;
+        justify-items: center;
+    }
+
+    section {
+        position:absolute;
+        background-color: antiquewhite;
+    }
+
+    #left {
+        top:10%;
+        left:5%;
+    }
+
+    #right {
+        right:0px;
+        bottom: 50px;
+    }
+    #icon {
+        position: absolute;
+        top: 24px;
+        right: 10px;
+    }
+    
+}

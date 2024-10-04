@@ -37,6 +37,9 @@ section {
     text-align: center;
 }
 
+#emoticon {
+    visibility: hidden;
+}
 ul {
     list-style-type: none;
 }

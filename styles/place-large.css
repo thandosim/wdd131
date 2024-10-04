@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px) {
     header, footer {
-        width: auto;
+        max-width: 1500px;
         margin: 0 auto;
     }
 
@@ -9,7 +9,7 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: 100%;
-        max-width: auto;
+        max-width: 1500px;
         justify-items: center;
     }
 
@@ -24,7 +24,7 @@
     }
 
     #right {
-        right:0px;
+        right:10%;
         bottom: 50px;
     }
     #icon {

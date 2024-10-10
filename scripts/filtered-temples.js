@@ -94,7 +94,7 @@ const temples = [
 		imageUrl:
 		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hamilton-new-zealand/400x250/hamilton_new_zealand_temple_lds.jpg"
 	  },
-	// Add more temple objects here...
+
   ];
 
   const oldButton = document.querySelector("#old");

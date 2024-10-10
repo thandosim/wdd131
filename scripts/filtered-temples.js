@@ -94,7 +94,7 @@ const temples = [
 		imageUrl:
 		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hamilton-new-zealand/400x250/hamilton_new_zealand_temple_lds.jpg"
 	  },
-
+	
   ];
 
   const oldButton = document.querySelector("#old");
@@ -102,6 +102,42 @@ const temples = [
   const largeButton = document.querySelector("#large");
   const smallButton = document.querySelector("#small");
 
+  temples.forEach(temple => {
+	document.getElementById("card").innerHTML += (card(temple));
+  });
+  
+
+  oldButton.addEventListener("click", () => {
+	document.getElementById("card").innerHTML = "";
+	let old = temples.filter(temple => parseInt(temple.dedicated.substring(0,4))<1990);
+	old.forEach(temple => {
+		document.getElementById("card").innerHTML += (card(temple));
+	  });
+  });
+
+  newButton.addEventListener("click", () => {
+	document.getElementById("card").innerHTML = "";
+	let newones = temples.filter(temple => parseInt(temple.dedicated.substring(0,4))>2000);
+	newones.forEach(temple => {
+		document.getElementById("card").innerHTML += (card(temple));
+	  });
+  });
+
+  largeButton.addEventListener("click", () => {
+	document.getElementById("card").innerHTML = "";
+	let large = temples.filter(temple => temple.area>90000);
+	large.forEach(temple => {
+		document.getElementById("card").innerHTML += (card(temple));
+	  });
+  });
+
+  smallButton.addEventListener("click", () => {
+	document.getElementById("card").innerHTML = "";
+	let small = temples.filter(temple => temple.area<10000);
+	small.forEach(temple => {
+		document.getElementById("card").innerHTML += (card(temple));
+	  });
+  });
 
   function card(temple) {
 	var name = `<p>${temple.templeName}</p> <br>`;
@@ -113,7 +149,3 @@ const temples = [
 	return figure;
   }
 
-  temples.forEach(temple => {
-	document.getElementById("card").innerHTML += (card(temple));
-  });
-  

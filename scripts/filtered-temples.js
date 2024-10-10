@@ -97,6 +97,9 @@ const temples = [
 	// Add more temple objects here...
   ];
 
+  const oldButton
+
+
   function card(temple) {
 	var name = `<p>${temple.templeName}</p> <br>`;
 	var location = `<p>Location: ${temple.location}</p> <br>`;

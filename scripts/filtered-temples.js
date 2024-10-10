@@ -97,7 +97,10 @@ const temples = [
 	// Add more temple objects here...
   ];
 
-  const oldButton
+  const oldButton = document.querySelector("#old");
+  const newButton = document.querySelector("#new");
+  const largeButton = document.querySelector("#large");
+  const smallButton = document.querySelector("#small");
 
 
   function card(temple) {

@@ -102,7 +102,7 @@ const temples = [
 	var location = `<p>Location: ${temple.location}</p> <br>`;
 	var date = `<p>Dedicated: ${temple.dedicated}</p> <br>`;
 	var area = `<p>Size: ${temple.area} Square feet</p> <br>`;
-	var url = `<img src="${temple.imageUrl}" loading="lazy" alt="picture of ${temple.templeName}." > <br>`;
+	var url = `<img src="${temple.imageUrl}" loading="lazy" alt="picture of the ${temple.templeName} temple." > <br>`;
 	var figure = `<figure>${name}${location}${date}${area}${url}</figure>`
 	return figure;
   }

@@ -93,8 +93,14 @@ section {
 
 figure {
 	margin: 0.5em;
+	background-color: #c7e6d980;
+	padding: 2rem;
 }
 
+img {
+	box-shadow: 2px 2px 20px rgb(171, 241, 218);
+}
+  
 footer{
     background: rgb(227, 245, 239);
     grid-column: 1/4;

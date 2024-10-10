@@ -108,6 +108,6 @@ const temples = [
   }
 
   temples.forEach(temple => {
-	document.getElementById("card").innerHTML = (card(temple));
+	document.getElementById("card").innerHTML += (card(temple));
   });
   

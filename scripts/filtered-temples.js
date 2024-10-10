@@ -140,7 +140,7 @@ const temples = [
   });
 
   function card(temple) {
-	var name = `<p>${temple.templeName}</p> <br>`;
+	var name = `<h3>${temple.templeName}</h3> <br>`;
 	var location = `<p>Location: ${temple.location}</p> <br>`;
 	var date = `<p>Dedicated: ${temple.dedicated}</p> <br>`;
 	var area = `<p>Size: ${temple.area} Square feet</p> <br>`;

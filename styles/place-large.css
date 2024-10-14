@@ -40,6 +40,12 @@
         top: 24px;
         right: 30px;
     }
+
+    #emoticon::after {
+        font-size: 1rem ;
+        content: ✅ ;
+    }
+
     #icon {
         display: none;
     }

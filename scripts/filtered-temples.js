@@ -109,7 +109,7 @@ const temples = [
 
   oldButton.addEventListener("click", () => {
 	document.getElementById("card").innerHTML = "";
-	let old = temples.filter(temple => parseInt(temple.dedicated.substring(0,4))<1990);
+	let old = temples.filter(temple => parseInt(temple.dedicated.substring(0,4))<1900);
 	old.forEach(temple => {
 		document.getElementById("card").innerHTML += (card(temple));
 	  });

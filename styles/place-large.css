@@ -43,7 +43,7 @@
 
     #emoticon::after {
         font-size: 1rem ;
-        content: ✅ ;
+        content: "⛅" ;
     }
 
     #icon {

@@ -1,13 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 :root {
+    --main-color:rgba(245, 15, 15, 0.226);
+    --pane-padding: 5px;
     font-family:'Noto', sans-serif;
     background-color:rgba(245, 15, 15, 0.226);
     margin: 0 auto;
     max-width: 1500px;
     border: 0px;
-    --main-color:rgba(245, 15, 15, 0.226);
-    --pane-padding: 5px;
 }
 
 header, footer {

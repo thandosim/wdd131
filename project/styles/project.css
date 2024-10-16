@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* CSS HEX */
+--light-green: #87d68dff;
+--jonquil: #ffcf00ff;
+--celadon: #ABE7B4ff;
+--red-munsell: #fa003fff;
+--dark-slate-gray: #283f3bff;
+
+--font-family: "Libre Franklin";
+}
+
+* {
+    font-family: var(--font-family);
+    color: var(--dark-slate-gray);
+    background-color: var(--celadon);
+    max-width: 900px;
+    margin: 0 auto;
+}
+

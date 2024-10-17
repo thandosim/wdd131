@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Thandokuhle Simelane</title>
+    <meta name="description" content="This page displays an interactive form">
+    <meta name="author" content="Thandokuhle Simelane">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="thanks.html" method="get" class="wf1">
+            <fieldset>
+                <legend>Product Name</legend>
+                <label>Product Name <select name="subject" >
+                <option value="">Choose a Product</option>
+                <option value="Software">Software Development</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+                <option value="option5">Option 5</option>
+                <option value="option6">Option 6</option>
+                <option value="option7">Option 7</option>
+                <option value="option8">Option 8</option>
+            </select></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <div></div>
+                <label><input type="radio" name="Audience" value="oneStar"> &star;</label>
+                <label><input type="radio" name="Audience" value="twoStars"> &star;&star;</label>
+                <label><input type="radio" name="Audience" value="threeStars"> &star;&star;&star;</label>
+                <label><input type="radio" name="Audience" value="fourStars"> &star;&star;&star;&star;</label>
+                <label><input type="radio" name="Audience" value="fiveStars"> &star;&star;&star;&star;&star;</label>
+                
+                <label><input type="text" name="fname"  required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date of Installation</legend>
+                <label><input type="date" name="competionDate"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Which features did you find useful in the product? </legend>
+                <div> (Check all that apply)</div>
+                <label><input type="checkbox" name="durability" value="yes"> Durability</label>
+                <label><input type="checkbox" name="ease" value="yes"> Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes"> Performance</label>
+                <label><input type="checkbox" name="Design" value="yes"> Design</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Written Review (Optional)</legend>
+                <label><input type="text" name="writtenReview"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name (Optional)</legend>              
+                <label><input type="number" name="name"></label>
+            </fieldset>
+    
+            <input type="submit" value="Post Review">
+    
+        </form>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>, 👤Thandokuhle Simelane, 🌍Mbabane, Swaziland</p>
+        <p>Last modified - <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

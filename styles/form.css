@@ -77,3 +77,8 @@ header, footer {
 .form input:required:valid {
     border-bottom: solid 8px green;
 }
+
+#thanks {
+    padding: 30px;
+    min-height: 400px;
+}

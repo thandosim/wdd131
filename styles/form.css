@@ -4,6 +4,7 @@ main {
     background-color: rgb(235, 206, 196);
     color: rgb(4, 4, 94);
     margin: 0 auto;
+    font-family: "Noto Sans";
 }
 
 header, footer {
@@ -12,6 +13,7 @@ header, footer {
     padding: 30px;
     max-width: 580px;
     margin: 0 auto;
+    font-family: "Noto Sans";
 }
 
 .form {

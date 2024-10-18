@@ -15,55 +15,46 @@
         <h1>Product Review</h1>
     </header>
     <main>
-        <form action="thanks.html" method="get" class="wf1">
+        <form action="review.html" method="get" class="form">
             <fieldset>
-                <legend>Product Name</legend>
-                <label>Product Name <select name="subject" >
-                <option value="">Choose a Product</option>
-                <option value="Software">Software Development</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
-                <option value="option4">Option 4</option>
-                <option value="option5">Option 5</option>
-                <option value="option6">Option 6</option>
-                <option value="option7">Option 7</option>
-                <option value="option8">Option 8</option>
+                <legend>Product Name *</legend>
+                <label><select name="subject" id="productList" required>
+                <option value="" disabled selected>Select a Product</option>
+               
             </select></label>
             </fieldset>
 
             <fieldset>
                 <legend>Overall Rating</legend>
                 <div></div>
-                <label><input type="radio" name="Audience" value="oneStar"> &star;</label>
-                <label><input type="radio" name="Audience" value="twoStars"> &star;&star;</label>
-                <label><input type="radio" name="Audience" value="threeStars"> &star;&star;&star;</label>
-                <label><input type="radio" name="Audience" value="fourStars"> &star;&star;&star;&star;</label>
-                <label><input type="radio" name="Audience" value="fiveStars"> &star;&star;&star;&star;&star;</label>
-                
-                <label><input type="text" name="fname"  required></label>
+                <label><input type="radio" name="rating" value="oneStar" id="oneStar" required> &star;</label>
+                <label><input type="radio" name="rating" value="twoStars" id="twoStars" required> &star;&star;</label>
+                <label><input type="radio" name="rating" value="threeStars" id="threeStars" required> &star;&star;&star;</label>
+                <label><input type="radio" name="rating" value="fourStars" id="fourStars" required> &star;&star;&star;&star;</label>
+                <label><input type="radio" name="rating" value="fiveStars" id="fiveStars" required> &star;&star;&star;&star;&star;</label>
             </fieldset>
 
             <fieldset>
                 <legend>Date of Installation</legend>
-                <label><input type="date" name="competionDate"></label>
+                <label><input type="date" name="competionDate" id="date" required></label>
             </fieldset>
 
             <fieldset>
                 <legend>Which features did you find useful in the product? </legend>
                 <div> (Check all that apply)</div>
-                <label><input type="checkbox" name="durability" value="yes"> Durability</label>
-                <label><input type="checkbox" name="ease" value="yes"> Ease of Use</label>
-                <label><input type="checkbox" name="performance" value="yes"> Performance</label>
-                <label><input type="checkbox" name="Design" value="yes"> Design</label>
+                <label><input type="checkbox" name="durability" value="yes" id="durability"> Durability</label>
+                <label><input type="checkbox" name="usability" value="yes" id="usability"> Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes" id="performance"> Performance</label>
+                <label><input type="checkbox" name="design" value="yes" id="design"> Design</label>
             </fieldset>
 
             <fieldset>
                 <legend>Written Review (Optional)</legend>
-                <label><input type="text" name="writtenReview"></label>
+                <label><textarea id="review" name="review" cols="40" rows="4"></textarea></label>
             </fieldset>
             <fieldset>
                 <legend>Your Name (Optional)</legend>              
-                <label><input type="number" name="name"></label>
+                <label><input type="text" name="name" id="name"></label>
             </fieldset>
     
             <input type="submit" value="Post Review">

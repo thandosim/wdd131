@@ -11,15 +11,8 @@ button.addEventListener('click', function() {
         setChapterList();
         input.value = "";
         input.focus();
-    }
+    };
 
-
-        
-        ;
-    //     });
-    // } else {
-    //     input.focus();        
-    // }
 });
 
 let chaptersArray = getChaptersList() || [];

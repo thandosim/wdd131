@@ -3,11 +3,12 @@
 :root {
     /* CSS HEX */
 --light-green: #87d68dff;
---jonquil: #ffcf00ff;
+--jonquil: rgb(236, 232, 212);
 --celadon: rgb(198, 243, 205);
 --red-munsell: #fa003fff;
 --dark-slate-gray: #283f3bff;
 --background1:  rgb(232, 245, 240);
+--spinach: green;
 
 --font-family: "Libre Franklin";
 }
@@ -149,4 +150,75 @@ textarea {
     position: relative;
     margin-left: 5px;
     padding-left: 5px;
+}
+
+.form {
+    padding-top:30px ;
+}
+
+.form fieldset {
+    margin: 2rem ;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+.form legend {
+    text-align: left;
+    font-size: large;
+    padding: 0 .5rem;
+}
+.form label {
+    display: block;
+    font-size: .9rem;
+}
+
+.form div {
+    padding-top: .1rem;
+    font-size: .9rem;
+}
+
+.form input[type = "text"],
+.form input[type="date"],
+.form input[type="tel"],
+.form input[type="email"],
+.form select { 
+    background-color: var(--jonquil);
+    display: block;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(green, green);
+    color: rgb(233, 185, 168);
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    min-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    font-size: large;
+}
+
+.form input:required {
+    border-bottom: groove 8px rgb(168, 116, 19);
+}
+
+.form input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+#thanks {
+    padding: 30px;
+    min-height: 400px;
 }

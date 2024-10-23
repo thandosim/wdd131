@@ -129,3 +129,24 @@ h2 {
     41% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+aside {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    width: 100%;
+}
+
+textarea {
+    width: 50%;
+    height: 3rem;
+}
+
+.wrapper {
+    position: relative;
+    margin-left: 5px;
+    padding-left: 5px;
+}

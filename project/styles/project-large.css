@@ -1,0 +1,42 @@
+@media (min-width: 900px) {
+	h1 {
+		font-size: 2.5rem;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	#menu {
+		display: none; 
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    main {
+        max-width: 1600px;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        justify-items: center;
+		margin: auto;
+    }
+
+    div {
+        grid-column: 1/2 ;
+    }
+    
+    aside {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+}

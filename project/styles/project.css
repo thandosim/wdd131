@@ -222,3 +222,10 @@ textarea {
     padding: 30px;
     min-height: 400px;
 }
+
+footer{
+    /* background: var(--celadon); */
+    grid-column: 1/4;
+    padding: 0%;
+    text-align: center;
+}

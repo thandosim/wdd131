@@ -156,7 +156,7 @@ table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
   
   td, th {
@@ -165,7 +165,7 @@ table {
   }
   
   th {
-    background-color: rgb(235,235,235);
+    background-color: rgb(240, 222, 202);
     column-span:all;
   }
   

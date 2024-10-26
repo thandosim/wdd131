@@ -95,6 +95,10 @@ h2 {
 	display: block;
 }
 
+/* .open a:hover {
+    background-color: red;
+} */
+
   .hero {
     width: 80%;
     height: 60vh;

@@ -26,6 +26,7 @@ header {
 }
 .logo {
     grid-column:1/2;
+    background-color: var(--background1);
 }
 h1 {
     display: flex;
@@ -220,6 +221,10 @@ textarea {
 
 .form input:required:valid {
     border-bottom: solid 8px green;
+}
+textarea {
+    border-radius: 5px;
+    min-width: 100%;
 }
 
 #thanks {

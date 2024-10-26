@@ -24,10 +24,14 @@
 header {
     display: grid;
     grid-template-columns: 11% 89%;
+    padding: 0;
+    background-color: var(--background1);
 }
 .logo {
     grid-column:1/2;
     background-color: var(--background1);
+    padding: 0;
+    height: 100%;
 }
 h1 {
     display: flex;
@@ -40,6 +44,7 @@ h1 {
 	width: 100%;
     color: rgb(28, 42, 87);
     background-color:var(--background1);
+    padding: 0;
 }
 
 h2 {

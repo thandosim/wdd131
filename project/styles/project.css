@@ -9,24 +9,25 @@
 --dark-slate-gray: #283f3bff;
 --background1:  rgb(232, 245, 240);
 --spinach: green;
-
 --font-family: "Libre Franklin";
+background-color:var(--celadon) ;
 }
 
 * {
     font-family: var(--font-family);
     color: var(--dark-slate-gray);
-    background-color: var(--celadon);
+    /* background-color: var(--celadon); */
     max-width: 900px;
     margin: 0 auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 header {
     display: grid;
     grid-template-columns: 11% 89%;
     padding: 0;
-    background-color: var(--background1);
+    background-color: var(--background1); 
 }
+
 .logo {
     grid-column:1/2;
     background-color: var(--background1);
@@ -105,7 +106,9 @@ h2 {
 /* .open a:hover {
     background-color: red;
 } */
-
+.article, aside {
+    padding-top: 10px;
+}
   .hero {
     width: 80%;
     height: 60vh;
@@ -150,6 +153,7 @@ aside {
 
 .container {
     width: 100%;
+    
 }
 
 table {
@@ -271,9 +275,9 @@ textarea {
     min-height: 400px;
 }
 
-footer{
-    /* background: var(--celadon); */
+footer {
+    background-color: var(--background1);
     grid-column: 1/4;
-    padding: 0%;
+    padding: 20px;
     text-align: center;
 }

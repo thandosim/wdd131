@@ -1,7 +1,7 @@
 
 main {
     max-width: 640px;
-    background-color: rgb(235, 206, 196);
+    background-color: rgb(241, 232, 228);
     color: rgb(4, 4, 94);
     margin: 0 auto;
     font-family: "Noto Sans";
@@ -9,7 +9,7 @@ main {
 
 header, footer {
     text-align: center;
-    background-color: rgb(235, 162, 136);
+    background-color: rgb(240, 216, 207);
     padding: 30px;
     max-width: 580px;
     margin: 0 auto;
@@ -52,6 +52,11 @@ header, footer {
     color: #555;
     width: 100%;
     max-width: 400px;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
 }
 
 .form input[type="radio"],

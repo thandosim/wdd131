@@ -174,12 +174,17 @@ aside {
 .container {
     width: 100%;  
 }
+.table {
+    padding-top: 20px;
+    padding-bottom: 20px;
 
+}
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 1.5rem;
+   
   }
   
   td, th {
